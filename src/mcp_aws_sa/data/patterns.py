@@ -2,7 +2,6 @@
 
 from __future__ import annotations
 
-
 PATTERNS: dict[str, dict[str, str]] = {
     "web-app": {
         "title": "Three-tier web app",

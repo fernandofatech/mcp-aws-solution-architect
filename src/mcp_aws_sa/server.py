@@ -29,7 +29,6 @@ from mcp_aws_sa.tools import (
     suggest_services as _suggest_services,
 )
 
-
 mcp = FastMCP("aws-solution-architect")
 
 

@@ -41,8 +41,8 @@ def suggest_services(use_case: str, include_baseline: bool = True) -> dict[str, 
                 assert isinstance(svc, dict)
                 key = svc["service"]
                 if key not in seen_services:
-                    seen_services.add(key)  # type: ignore[arg-type]
-                    suggestions.append(dict(svc))  # type: ignore[arg-type]
+                    seen_services.add(key)
+                    suggestions.append(dict(svc))
 
     if include_baseline:
         for svc in BASELINE_SERVICES:

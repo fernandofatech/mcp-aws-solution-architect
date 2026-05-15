@@ -8,7 +8,6 @@ full WA Tool workshop.
 
 from __future__ import annotations
 
-
 PILLARS = (
     "operational_excellence",
     "security",

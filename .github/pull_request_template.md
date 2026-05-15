@@ -25,3 +25,5 @@
 - [ ] Target branch is `develop` (or `main` only for hotfixes / releases)
 - [ ] Docs updated if behavior or interface changed
 - [ ] CHANGELOG updated (Unreleased section)
+- [ ] Frontend/security workflows pass when touched
+- [ ] No secrets, credentials, or generated build artifacts committed

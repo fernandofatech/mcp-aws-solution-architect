@@ -5,7 +5,6 @@ Intentionally compact and explicit. Extending it is a one-file diff.
 
 from __future__ import annotations
 
-
 # Each entry maps a keyword set → a list of (service, category, rationale).
 # Matching is OR across keywords within the same pattern. A use case may match
 # multiple patterns and the suggestions are deduplicated by service.

@@ -105,9 +105,22 @@ flowchart LR
 ├── src/mcp_aws_sa/        # Python package — server + tools + data
 ├── tests/                  # pytest suite
 ├── docs/                   # MkDocs Material site (deployed to GitHub Pages)
-├── frontend/               # Next.js landing page (deployed to Vercel)
+├── frontend/               # dependency-free static landing (deployed to Vercel)
 └── .github/workflows/      # CI, docs deploy
 ```
+
+## Automation
+
+This portfolio repo ships with automated checks for production-shaped engineering hygiene:
+
+- **Python:** Ruff, mypy, pytest.
+- **Frontend:** lint, static build, and `npm audit`.
+- **Docs:** strict MkDocs build and GitHub Pages deploy.
+- **Security:** CodeQL, pip-audit, dependency review, Trivy filesystem scan, and Gitleaks secret scan.
+- **Maintenance:** Dependabot for GitHub Actions, Python dependencies, and frontend dependencies.
+- **Vercel:** preview deploys for PRs and production deploys from `main` when Vercel secrets are configured.
+
+See [OPERATIONS.md](OPERATIONS.md) for the full workflow and required secrets.
 
 ## Development
 

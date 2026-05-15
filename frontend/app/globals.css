@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-inter: ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+}
+
+html,
+body {
+  background: #0a0a0f;
+  color: #e6e6f0;
+}
+
+body {
+  background:
+    radial-gradient(1200px 600px at 20% -10%, rgba(139, 92, 246, 0.20), transparent 60%),
+    radial-gradient(900px 500px at 110% 10%, rgba(249, 115, 22, 0.16), transparent 60%),
+    #0a0a0f;
+  min-height: 100vh;
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #c4b5fd 0%, #fdba74 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 14px;
+}
+
+.card:hover {
+  border-color: rgba(139, 92, 246, 0.45);
+  transition: border-color 200ms ease;
+}
+
+code,
+pre {
+  font-family: var(--font-mono);
+}
+
+pre {
+  background: #0e0e16;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 12px;
+  padding: 1rem 1.25rem;
+  overflow-x: auto;
+}

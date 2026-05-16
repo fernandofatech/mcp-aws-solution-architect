@@ -21,6 +21,17 @@
 
 ---
 
+## Live portfolio / Portfolio ao vivo
+
+- **Production:** [MCP AWS Solution Architect](https://mcp-aws.moretes.com)
+- **Documentation:** [Project docs](https://fernandofatech.github.io/mcp-aws-solution-architect/)
+- **GitHub:** [fernandofatech/mcp-aws-solution-architect](https://github.com/fernandofatech/mcp-aws-solution-architect)
+- **Author:** [Fernando Francisco Azevedo](https://fernando.moretes.com) · [LinkedIn](https://www.linkedin.com/in/fernando-francisco-azevedo/) · [GitHub](https://github.com/fernandofatech)
+
+This public repository is part of a bilingual portfolio focused on solution architecture, AWS, AI, MCP/tooling, DevSecOps, and production-ready engineering practices.
+
+Este repositório público faz parte de um portfólio bilíngue focado em arquitetura de soluções, AWS, IA, MCP/tools, DevSecOps e boas práticas de engenharia para produção.
+
 ## Why
 
 Solution Architects spend a lot of time on repetitive shaping work: drafting Mermaid diagrams, eyeballing rough monthly cost, sanity-checking a design against the Well-Architected Framework, writing ADRs. This MCP server exposes those tasks as **structured tools** that any MCP-aware assistant (Claude Desktop, Cursor, Cline, Continue, custom agents) can call.
@@ -118,7 +129,7 @@ This portfolio repo ships with automated checks for production-shaped engineerin
 - **Docs:** strict MkDocs build and GitHub Pages deploy.
 - **Security:** CodeQL, pip-audit, dependency review, Trivy filesystem scan, and Gitleaks secret scan.
 - **Maintenance:** Dependabot for GitHub Actions, Python dependencies, and frontend dependencies.
-- **Vercel:** preview deploys for PRs and production deploys from `main` when Vercel secrets are configured.
+- **Vercel:** automatic preview and production deploys are connected through Vercel Git integration.
 
 See [OPERATIONS.md](OPERATIONS.md) for the full workflow and required secrets.
 
